@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chan Desktop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <button id="toggle-gifs-btn" class="brutal-btn fixed-toggle-btn">Hide GIFs</button>
+
+    <nav class="navbar border-bottom">
+        <div class="nav-brand">
+            <span class="icon">☺</span>
+        </div>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#blog">Blog</a>
+            <a href="#education">Education</a>
+            <a href="#training">Training</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        
+        <section id="about" class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Hello.<br>I'm Chan.</h1>
+                <p class="hero-subtitle">I am a student who is passionate about technology and always curious about how systems work. I enjoy learning new things, especially in areas like artificial intelligence, problem solving, and innovation. I like exploring ideas that could improve future technology, including systems related to aviation and smart solutions for real-world problems. My goal is to keep improving my skills and create projects that can make a positive impact.</p>
+                <a href="#contact" class="brutal-btn" style="text-decoration: none; display: inline-block;">Contact Me</a>
+            </div>
+            <div class="hero-image">
+                <div class="image-placeholder window-card">
+                    <div class="window-header">
+                        <div class="circle"></div><div class="circle"></div>
+                    </div>
+                    <div class="placeholder-content">
+                        <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGM3MjJ2cXk1MzdjYjExMTB4cHRrbmFvNzN4ZmRwbDRoZGE1b2Z1ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/IcLq3zbP8gRUGnxlPT/giphy.gif" alt="GIF 8" class="cover-gif border-top">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="quick-links">
+            <h3 class="section-title">Quick links</h3>
+            <div class="links-grid">
+                <a href="#blog" class="quick-link">Blog <span class="arrow">↗</span></a>
+                <a href="#education" class="quick-link border-left">Education <span class="arrow">↗</span></a>
+                <a href="#training" class="quick-link border-left">Training <span class="arrow">↗</span></a>
+                <a href="#contact" class="quick-link border-left">Contact <span class="arrow">↗</span></a>
+            </div>
+        </section>
+
+        <section id="blog" class="section-block">
+            <h2 class="section-title">Blog</h2>
+            <div class="window-card">
+                <div class="window-header">
+                    <div class="circle"></div><div class="circle"></div>
+                    <span class="window-title"> </span>
+                </div>
+                <div class="card-body">
+                    <h3>My Learning Journey</h3>
+                    <p>This section is where I share my thoughts, ideas, and things I am learning about technology, innovation, and projects I am working on. It also includes insights from my experiences as a student exploring new concepts and developing skills.</p>
+                    <button class="brutal-btn read-more-btn">Read More</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section-block">
+            <h2 class="section-title">Education</h2>
+            <div class="window-card">
+                <div class="window-header">
+                    <div class="circle"></div><div class="circle"></div>
+                    <span class="window-title"></span>
+                </div>
+                <div class="card-body">
+                    <h3>National University</h3>
+                    <p style="font-weight: 600; margin-bottom: 0.5rem;">Bachelor of Science in Computer Science with specialization in Machine Learning</p>
+                    <p>2025 - Present</p>
+                    <p>I am currently a student focused on learning technology, problem solving, and developing skills through school projects and continuous learning.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="training" class="section-block">
+            <h2 class="section-title">Training</h2>
+            
+            <div class="carousel-wrapper">
+                <button class="carousel-btn prev-btn">←</button>
+                
+                <div class="horizontal-scroll" id="cert-scroll">
+                    
+                    <div class="window-card scroll-card">
+                        <div class="window-header">
+                            <div class="circle"></div><div class="circle"></div>
+                            <span class="window-title"></span>
+                        </div>
+                        <div class="card-image-placeholder">
+                            Certificate 1
+                        </div>
+                        <div class="card-body border-top">
+                            <h3>Lorem Ipsum Certificate</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <button class="brutal-btn">View Credential</button>
+                        </div>
+                    </div>
+
+                    <div class="window-card scroll-card">
+                        <div class="window-header">
+                            <div class="circle"></div><div class="circle"></div>
+                            <span class="window-title"></span>
+                        </div>
+                        <div class="card-image-placeholder">
+                            Certificate 2
+                        </div>
+                        <div class="card-body border-top">
+                            <h3>Lorem Ipsum Training</h3>
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+                            <button class="brutal-btn">View Credential</button>
+                        </div>
+                    </div>
+
+                    <div class="window-card scroll-card">
+                        <div class="window-header">
+                            <div class="circle"></div><div class="circle"></div>
+                            <span class="window-title"></span>
+                        </div>
+                        <div class="card-image-placeholder">
+                            Certificate 3
+                        </div>
+                        <div class="card-body border-top">
+                            <h3>Advanced Lorem Ipsum</h3>
+                            <p>Excepteur sint occaecat cupidatat non proident sunt in.</p>
+                            <button class="brutal-btn">View Credential</button>
+                        </div>
+                    </div>
+
+                    <div class="window-card scroll-card">
+                        <div class="window-header">
+                            <div class="circle"></div><div class="circle"></div>
+                            <span class="window-title"></span>
+                        </div>
+                        <div class="card-image-placeholder">
+                            Certificate 4
+                        </div>
+                        <div class="card-body border-top">
+                            <h3>Master Class Ipsum</h3>
+                            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <button class="brutal-btn">View Credential</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <button class="carousel-btn next-btn">→</button>
+            </div>
+        </section>
+
+        <section id="contact" class="section-block">
+            <h2 class="section-title">Contact</h2>
+            <div class="window-card">
+                <div class="window-header">
+                    <div class="circle"></div><div class="circle"></div>
+                </div>
+                <div class="card-body">
+                    <p>Feel free to reach out if you want to connect, collaborate, or learn more about my projects.</p>
+                    <p style="font-weight: 700; font-size: 1.2rem; margin: 1.5rem 0;">
+                        Email: <a href="mailto:johnchristianlolos160@gmail.com" class="custom-link">johnchristianlolos160@gmail.com</a>
+                        </p>
+                    
+                    <div class="social-links-container">
+                        <a href="https://www.instagram.com/ccc.o_c.v/" class="brutal-btn social-btn">Instagram ↗</a>
+                        <a href="https://www.facebook.com/ChannnDEV.6767" class="brutal-btn social-btn">Facebook ↗</a>
+                        <a href="https://www.linkedin.com/in/john-christian-lolos-242401378/" class="brutal-btn social-btn">LinkedIn ↗</a>
+                        <a href="https://github.com/ChrisChan-dev" class="brutal-btn social-btn">GitHub ↗</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="gif-column left-column">
+        <div class="window-card side-gif-card">
+            <div class="window-header">
+                <div class="circle"></div><div class="circle"></div>
+            </div>
+            <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTEwc29zamRneHhlazZjaTBsNG5mdGd2anNqMzNhY2dpa2JkeDF3dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mPjgTBmhE4mCho0qTd/giphy.gif" alt="GIF 1" class="cover-gif border-top">
+        </div>
+        <div class="window-card side-gif-card">
+            <div class="window-header">
+                <div class="circle"></div><div class="circle"></div>
+            </div>
+            <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzh4MzIxbnRkMWQ5dmNoZXh4aTV0N2k4OWR3dWwzYXlqdDNkMmRzayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MOYUOOoIHOj9PKN1rE/giphy.gif" alt="GIF 2" class="cover-gif border-top">
+        </div>
+        <div class="window-card side-gif-card">
+            <div class="window-header">
+                <div class="circle"></div><div class="circle"></div>
+            </div>
+            <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeDA5Zmk3dXB5aDR6ZWh4eGthaHZ3ZmZhem15OG5ybHd5anBubWJ2eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/e7CD41ekE5ZUSgTnkn/giphy.gif" alt="GIF 3" class="cover-gif border-top">
+        </div>
+        <div class="window-card side-gif-card">
+            <div class="window-header">
+                <div class="circle"></div><div class="circle"></div>
+            </div>
+            <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHFoYnF2M2ZodmYyc29xbnNmamFnZnIzZW4xeGJ4amRyd2JiZ3ZqcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Spq2koF9hi9qmOOavS/giphy.gif" alt="GIF 4" class="cover-gif border-top">
+        </div>
+        <div class="window-card side-gif-card">
+            <div class="window-header">
+                <div class="circle"></div><div class="circle"></div>
+            </div>
+            <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExam9sZHRnZjFveWZpMTk3bGYxdXN5bmp2bzNwYmx6dThpeHBqcXd1OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HT242oEcxM07Qn7A58/giphy.gif" alt="GIF 5" class="cover-gif border-top">
+        </div>
+    </div>
+
+    <div class="gif-column right-column">
+        <div class="window-card side-gif-card">
+            <div class="window-header">
+                <div class="circle"></div><div class="circle"></div>
+            </div>
+            <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdzBsc25jcXN6a2Nhemo3dTA5ajQybDl2NjF4NTZldGE4YTVvampyMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/D9eoUunTcGvPOS2IrK/giphy.gif" alt="GIF 6" class="cover-gif border-top">
+        </div>
+        <div class="window-card side-gif-card">
+            <div class="window-header">
+                <div class="circle"></div><div class="circle"></div>
+            </div>
+            <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExczR5M2c0ZWRobHlieG9meHJpcG01bnV0dWo5YjE5eW85dGpnY3M4YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dyg0b2nT5DOymH0Gwh/giphy.gif" alt="GIF 7" class="cover-gif border-top">
+        </div>
+        <div class="window-card side-gif-card">
+            <div class="window-header">
+                <div class="circle"></div><div class="circle"></div>
+            </div>
+            <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnFpYXVkZHVzemQ2ZGlnNHl1NWdyNm9lMTNyNGVjdXZoZ3d0cnpmaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/c6tkNVWAOC1oNSUu8x/giphy.gif" alt="GIF 8" class="cover-gif border-top">
+        </div>
+        <div class="window-card side-gif-card">
+            <div class="window-header">
+                <div class="circle"></div><div class="circle"></div>
+            </div>
+            <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDJyNzFheXI1cTNpMms1Y3Iyd2N1aGNxZmt4bWdkcW43d2FycXc5ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3yLV07l5EnXksjnouq/giphy.gif" alt="GIF 9" class="cover-gif border-top">
+        </div>
+        <div class="window-card side-gif-card">
+            <div class="window-header">
+                <div class="circle"></div><div class="circle"></div>
+            </div>
+            <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExenVuZGI5aGRyYTczNzV5bm96NWNoemxqaTlucjVmNHlyZ3B5d2thayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yYByUk8aG7t9VWxi46/giphy.gif" alt="GIF 10" class="cover-gif border-top">
+        </div>
+    </div>
+
+    <div class="modal" id="blog-modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content window-card">
+            <button class="close-modal">X</button>
+            <div class="window-header">
+                <div class="circle"></div><div class="circle"></div>
+                <span class="window-title">Full Post Viewer</span>
+            </div>
+            <div class="card-body">
+                <h2>My Learning Journey</h2>
+                <p>This blog is where I document my journey as a student who is continuously learning about technology and new ideas. I like exploring topics that help me understand how modern systems work and how they can improve everyday life.</p>
+                <p>I also share insights from my projects, school activities, and personal research. These experiences help me develop my problem-solving skills and expand my knowledge in areas related to innovation and technology.</p>
+                <p>In addition, this section includes some of the training programs and certificates I have completed. Each one represents my effort to keep learning, improving my skills, and preparing for future opportunities.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
