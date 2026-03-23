@@ -61,12 +61,12 @@ document.addEventListener('DOMContentLoaded', () => {
     if (closeModalBtn) closeModalBtn.addEventListener('click', closeModal);
     if (modalOverlay) modalOverlay.addEventListener('click', closeModal);
 
-    const hideGifBtns = document.querySelectorAll('.hide-gif-btn');
-    hideGifBtns.forEach(btn => {
-        btn.addEventListener('click', (e) => {
-            const gifCard = e.target.closest('.window-card');
-            if (gifCard) {
-                gifCard.style.display = 'none';
+    const viewButtons = document.querySelectorAll('.scroll-card .brutal-btn');
+    viewButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+            const fileName = btn.getAttribute('data-cert-src');
+            if (fileName) {
+                window.open(fileName, '_blank');
             }
         });
     });
